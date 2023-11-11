@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Raleway:wght@400;500&display=swap');
+
+header {
+    background-color: rgba(102, 113, 110, 0.237);
+    --font-1: 'Inter', sans-serif;
+    --font-2: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    align-content: center;
+}
+header #title{
+    grid-column: 2/3;
+    text-align: center;
+    font-family: var(--font-1);
+   
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+
+    align-content: center;
+}
+canvas{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+
+}
+main p{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-content: center;
+    text-align: center;
+    border: solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: black;
+    font-weight: 700;
+    font-family: "arial";
+    font-size: 2em;
+
+
+}
+footer{
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div p  {
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'arial';
+}  
