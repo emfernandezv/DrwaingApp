@@ -6,7 +6,7 @@ I used type script to control the mouse events on a defined canvas, it draws pix
 
 The purpose of this project is to demonstrate the usage of TypeScript to automatically create the JavaScript file that is used on the website.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/iad85446i4Y)
 
 # Development Environment
 
